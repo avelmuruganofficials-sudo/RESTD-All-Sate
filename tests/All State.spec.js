@@ -121,7 +121,6 @@ test('Excel data based automation', async ({ page }) => {
       await page.locator('#search').first().click();
       await page.locator("//tr[@class='ng2-smart-row selected ng-star-inserted']").click();
       await page.locator('//nb-tabset//ul/li[1]/a').click();
-7:43
 // ********************************Booking***************************************
       await page.locator('nb-accordion-item-header').filter({ hasText: 'Client Information' }).click();
       const riskIdInput = page.locator("input[placeholder='Risk Id']");
