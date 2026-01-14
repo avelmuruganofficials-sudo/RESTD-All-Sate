@@ -1,0 +1,16 @@
+{
+  "name": "restd-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.7",
+    "allure": "^3.0.1"
+  }
+}
