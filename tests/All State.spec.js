@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import xlsx from 'xlsx';
-const workbook = xlsx.readFile('./tests/DATA/All state.xlsx');
+const workbook = xlsx.readFile('./tests/DATA/Allstate.xlsx');
 const sheet = workbook.Sheets[workbook.SheetNames[0]];
 const data = xlsx.utils.sheet_to_json(sheet);
 test('Excel data based automation', async ({ page }) => {
@@ -14,7 +14,7 @@ test('Excel data based automation', async ({ page }) => {
     console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
-      await page.waitForLoadState('networkidle');
+      await page.waitForLoadState('networkidle'); 
       await page.getByRole('button', { name: '   New Application' }).click();
       await page.getByLabel('State').selectOption(row.State);
       await page.locator('#state').nth(1).selectOption(row.Lob);
