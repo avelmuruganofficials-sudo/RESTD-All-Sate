@@ -3,7 +3,8 @@ import xlsx from 'xlsx';
 const workbook = xlsx.readFile('./tests/Data/ACSTD AllState.xlsx');
 const sheet = workbook.Sheets[workbook.SheetNames[0]];
 const data = xlsx.utils.sheet_to_json(sheet);
-test('Excel data based automation', async ({ page }) => {
+for (const row of data) {
+  test(`Excel test - ${row.RiskId}`, async ({ page }) => => {
   await page.goto('https://www.landydev.com/#/auth/login');
   await page.waitForLoadState('networkidle');
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
@@ -187,4 +188,5 @@ test('Excel data based automation', async ({ page }) => {
     // small delay between rows
     await page.waitForTimeout(2000);
   }
+}
 });
