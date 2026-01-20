@@ -6,10 +6,10 @@ const data = xlsx.utils.sheet_to_json(sheet);
 test('Excel data based automation', async ({ page }) => {
   await page.goto('https://www.landydev.com/#/auth/login');
   await page.waitForLoadState('networkidle');
-  await page.getByRole('textbox', { name: 'Email' }).fill('sengeni@stepladdersolutions.com');
+  await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i = 40; i < data.length; i++) {
+  for (let i = 0; i < data.length; i++) {
     const row = data[i];
     console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
     try {
