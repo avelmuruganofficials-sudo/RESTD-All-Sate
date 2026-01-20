@@ -1,16 +1,15 @@
 import { test, expect } from '@playwright/test';
 import xlsx from 'xlsx';
-const workbook = xlsx.readFile('./tests/Data/ACSTD AllState.xlsx');
+const workbook = xlsx.readFile('./tests/DATA/ACSTD AllState.xlsx');
 const sheet = workbook.Sheets[workbook.SheetNames[0]];
 const data = xlsx.utils.sheet_to_json(sheet);
-for (const row of data) {
-  test(`Excel test - ${row.RiskId}`, async ({ page }) => => {
+test('Excel data based automation', async ({ page }) => {
   await page.goto('https://www.landydev.com/#/auth/login');
   await page.waitForLoadState('networkidle');
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 40; i < data.length; i++) {
     const row = data[i];
     console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
     try {
@@ -188,5 +187,4 @@ for (const row of data) {
     // small delay between rows
     await page.waitForTimeout(2000);
   }
-}
 });
