@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import xlsx from 'xlsx';
-const workbook = xlsx.readFile('./tests/DATA/Allstate.xlsx');
+const workbook = xlsx.readFile('./tests/DATA/RESTD AllState.xlsx');
 const sheet = workbook.Sheets[workbook.SheetNames[0]];
 const data = xlsx.utils.sheet_to_json(sheet);
 test('Excel data based automation', async ({ page }) => {
@@ -9,7 +9,7 @@ test('Excel data based automation', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i = 4; i < data.length; i++) {
+  for (let i = 0; i < data.length; i++) {
     const row = data[i];
     console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
     try {
