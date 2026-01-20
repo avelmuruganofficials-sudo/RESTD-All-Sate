@@ -9,9 +9,9 @@ test('Excel data based automation', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i = 0; i < data.length; i++) {
+  for (let i = 40; i > data.length; i--) {
     const row = data[i];
-    console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
+    console.log(`Starting row ${i - 1} RiskId: ${row.RiskId}`);
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
       await page.waitForLoadState('networkidle'); 
@@ -177,15 +177,15 @@ test('Excel data based automation', async ({ page }) => {
       // await page.getByRole('cell').filter({ hasText: /^$/ }).nth(3).click();
       // await page.getByRole('link', { name: 'Accounting' }).click();
       // --- Optional: screenshot for success ---
-      await page.screenshot({ path: `row-${i + 1}-success.png` });
+      await page.screenshot({ path: `row-${i -1 1}-success.png` });
       console.log({
-        row: i + 1,
+        row: i - 1,
         RiskId: row.RiskId,
         Status: 'SUCCESS'
       });
     } catch (error) {
-      console.error(`:x: FAILED ROW ${i + 1} | RiskId: ${row.RiskId}`, error);
-      await page.screenshot({ path: `row-${i + 1}-error.png` });
+      console.error(`:x: FAILED ROW ${i - 1} | RiskId: ${row.RiskId}`, error);
+      await page.screenshot({ path: `row-${i - 1}-error.png` });
       continue; // move to next Excel row
     }
     // small delay between rows
