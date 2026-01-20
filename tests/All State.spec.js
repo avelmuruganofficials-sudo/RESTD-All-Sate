@@ -177,7 +177,7 @@ test('Excel data based automation', async ({ page }) => {
       // await page.getByRole('cell').filter({ hasText: /^$/ }).nth(3).click();
       // await page.getByRole('link', { name: 'Accounting' }).click();
       // --- Optional: screenshot for success ---
-      await page.screenshot({ path: `row-${i -1 1}-success.png` });
+      await page.screenshot({ path: `row-${i - 1}-success.png` });
       console.log({
         row: i - 1,
         RiskId: row.RiskId,
