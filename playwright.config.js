@@ -13,8 +13,8 @@ export default defineConfig({
     // ['allure-playwright']
   ],
   use: {
-    headless: true,
-    slowMo: 500,
+    headless: false,
+    slowMo: 100,
     viewport: null,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
