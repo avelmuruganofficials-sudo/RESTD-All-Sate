@@ -29,6 +29,15 @@ pipeline {
                 '''
             }
         }
+        stage('Run Tests (Headed)') {
+      steps {
+        sh '''
+          Xvfb :99 -screen 0 1280x720x24 &
+          export DISPLAY=:99
+          npx playwright test --workers=1
+        '''
+      }
+    }
         stage('Archive Reports') {
             steps {
                 archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
