@@ -9,7 +9,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   // :white_check_mark: HTML + Allure reporter
   reporter: [
-    ['html', { open: 'always' }],
+    ['html', { open: 'never' }],
     // ['allure-playwright']
   ],
   use: {

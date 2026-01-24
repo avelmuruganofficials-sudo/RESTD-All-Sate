@@ -4,6 +4,9 @@ pipeline {
     environment {
         NODE_VERSION = '24.x'
     }
+    triggers {
+        cron('0 10 * * *')   // Runs daily at 10 AM
+    }
     options {
         timestamps()
         timeout(time: 1, unit: 'HOURS')
@@ -46,11 +49,14 @@ pipeline {
         }
     }
     post {
-        always {
-            echo "Pipeline finished. Check artifacts and test reports."
+         always {
+
+            publishHTML(target: [
+                reportDir: 'playwright-report',
+                reportFiles: 'index.html',
+                reportName: 'Playwright HTML Report'
+            ])
         }
-        success { echo ":white_check_mark: Jenkins tests passed!" }
-        failure { echo ":x: Jenkins tests failed!" }
     }
 }
 
