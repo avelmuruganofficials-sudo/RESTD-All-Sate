@@ -13,12 +13,12 @@ export default defineConfig({
     // ['allure-playwright']
   ],
   use: {
-    headless: false,
+    headless: true,
     slowMo: 100,
     viewport: null,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    trace: 'on'
+    trace: 'on-first-retry'
   },
   projects: [
     {
