@@ -1,70 +1,64 @@
+
 pipeline {
     agent any
-
-    triggers {
-        cron('0 10 * * *')   // Daily at 10 AM
+    environment {
+        NODE_VERSION = '24.x'
     }
-
+    triggers {
+        cron('0 10 * * *')   // Runs daily at 10 AM
+    }
     options {
         timestamps()
         timeout(time: 1, unit: 'HOURS')
     }
-
     stages {
-
         stage('Checkout') {
             steps {
                 checkout scm
             }
         }
-
         stage('Install Dependencies') {
             steps {
                 bat '''
-                    echo Installing Node packages...
                     npm ci
-
-                    echo Installing Playwright browsers...
                     npx playwright install
                 '''
             }
         }
-
-        stage('Run Playwright Tests (CI Headless)') {
+        stage('Run Playwright Tests (Headed)') {
             steps {
                 bat '''
-                    echo Running Playwright Tests...
-                    npx playwright test --workers=2 --reporter=html
+                    npx playwright test --workers=4 --reporter=html || exit /b %ERRORLEVEL%
                 '''
             }
         }
-
-        stage('Archive Playwright Reports & Evidence') {
+        stage('Run Tests (Headed)') {
+      steps {
+         bat 'npm install'
+        bat '''
+          Xvfb :99 -screen 0 1280x720x24 &
+          export DISPLAY=:99
+          npx playwright test --workers=4 --reporter=html --headed=false
+        '''
+      }
+    }
+        stage('Archive Reports') {
             steps {
-
-                echo "Archiving Playwright HTML Report..."
-                archiveArtifacts artifacts: '''
-                    playwright-report/**
-                    test-results/**
-                ''', allowEmptyArchive: true
-
-                echo "Publishing HTML Report..."
-                publishHTML(target: [
-                    reportDir: 'playwright-report',
-                    reportFiles: 'index.html',
-                    reportName: 'Playwright Automation Report'
-                ])
+                archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+                junit 'playwright-report/**/*.xml'
             }
         }
     }
-
     post {
-        always {
-            echo "Pipeline Finished. Reports and Evidence Saved."
-        }
+         always {
 
-        failure {
-            echo "Tests Failed. Please check screenshots, videos, and trace in Jenkins artifacts."
+            publishHTML(target: [
+                reportDir: 'playwright-report',
+                reportFiles: 'index.html',
+                reportName: 'Playwright HTML Report'
+            ])
         }
     }
 }
+
+
