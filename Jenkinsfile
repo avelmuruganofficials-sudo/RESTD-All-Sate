@@ -12,7 +12,7 @@ pipeline {
         timeout(time: 1, unit: 'HOURS')
     }
     use: {
-  headless: true,
+  headless: false,
   viewport: { width: 1280, height: 720 },
         }
 
