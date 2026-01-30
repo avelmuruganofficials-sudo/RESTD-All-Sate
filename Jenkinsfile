@@ -6,7 +6,7 @@ pipeline {
     }
 
     tools {
-        nodejs "NodeJS"
+        nodejs "Node18"
     }
 
     triggers {
