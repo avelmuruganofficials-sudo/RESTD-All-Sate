@@ -1,51 +1,55 @@
 pipeline {
     agent any
 
-    options {
-        timestamps()
-        timeout(time: 1, unit: 'HOURS')
+    tools {
+        nodejs "NodeJS"
     }
 
     stages {
 
-        stage('Checkout') {
+        stage('Checkout Code') {
             steps {
-                checkout scm
+                git branch: 'main',
+                    url: 'https://github.com/yourusername/yourrepo.git'
             }
         }
 
         stage('Install Dependencies') {
             steps {
                 bat '''
-                    npm ci
+                    npm install
+                '''
+            }
+        }
+
+        stage('Install Playwright Browsers') {
+            steps {
+                bat '''
                     npx playwright install
                 '''
             }
         }
 
-        stage('Run Playwright Tests') {
+        stage('Run Playwright Tests (Headed Mode)') {
             steps {
                 bat '''
-                    npx playwright test --workers=2 --reporter=html
+                    npx playwright test --headed
                 '''
             }
         }
 
-        stage('Archive Reports') {
+        stage('Generate HTML Report') {
             steps {
-                archiveArtifacts artifacts: 'playwright-report/**',
-                                 allowEmptyArchive: true
+                bat '''
+                    npx playwright show-report
+                '''
             }
         }
     }
 
     post {
         always {
-            publishHTML(target: [
-                reportDir: 'playwright-report',
-                reportFiles: 'index.html',
-                reportName: 'Playwright HTML Report'
-            ])
+            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
         }
     }
 }
