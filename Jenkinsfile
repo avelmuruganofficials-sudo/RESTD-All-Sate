@@ -11,6 +11,11 @@ pipeline {
         timestamps()
         timeout(time: 1, unit: 'HOURS')
     }
+    use: {
+  headless: true,
+  viewport: { width: 1280, height: 720 },
+        }
+
     stages {
         stage('Checkout') {
             steps {
@@ -35,7 +40,7 @@ pipeline {
         stage('Run Tests (Headed)') {
       steps {
          bat 'npm install'
-        bat '''
+        sh '''
           Xvfb :99 -screen 0 1280x720x24 &
           export DISPLAY=:99
           npx playwright test --workers=4 --reporter=html --headed=false
