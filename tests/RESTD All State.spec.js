@@ -77,7 +77,7 @@ test('Excel data based automation', async ({ page }) => {
       await page.locator('//*[@id="moveToAccounting"]').click();
       await page.locator('//*[@id="accounting"]').click();
       await page.waitForTimeout(3000);
-      ****************************Payment**************************
+      // ************************Payment******************
       await page.getByRole('link', { name: 'Payment', exact: true }).click();
       await page.waitForLoadState('networkidle');
       const balanceText = await page.locator("//ngx-payment-tab//tr[2]/td[9]").innerText();
