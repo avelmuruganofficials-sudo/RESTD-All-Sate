@@ -1,12 +1,16 @@
 pipeline {
     agent any
+     options {
+        timestamps()
+        timeout(time: 1, unit: 'HOURS')
+    }
 
     tools {
         nodejs "NodeJS"
     }
 
     triggers {
-        cron('30 10 * * *')   // Daily Morning 10:30 AM
+        cron('30 10 * * *')   // Daily 10:30 AM
     }
 
     stages {
@@ -14,79 +18,77 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/yourusername/yourrepo.git'
+                    url: 'https://github.com/avelmuruganofficials-sudo/RESTD-All-Sate.git'
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                bat '''
-                    npm install
-                '''
+                bat 'npm install'
             }
         }
 
         stage('Install Playwright Browsers') {
             steps {
-                bat '''
-                    npx playwright install
-                '''
+                bat 'npx playwright install'
             }
         }
 
-        stage('Run Playwright Tests (Headed Mode)') {
+        stage('Run Playwright Tests') {
             steps {
-                bat '''
-                    npx playwright test --headed
-                '''
+                bat 'npx playwright test --headed --reporter=html'
             }
         }
     }
 
     post {
 
+        always {
+            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'test-results/**', allowEmptyArchive: true
+        }
+
         success {
-            emailext (
-                subject: "✅ Playwright Test SUCCESS - Jenkins Build #${BUILD_NUMBER}",
+            emailext(
+                subject: "✅ Playwright SUCCESS - Build #${BUILD_NUMBER}",
                 body: """
-                    Hello Velmurugan,
+Hello Velmurugan,
 
-                    Your Playwright Automation Test Run was SUCCESSFUL ✅
+Your Playwright Test Run was SUCCESSFUL ✅
 
-                    Job Name: ${JOB_NAME}
-                    Build Number: ${BUILD_NUMBER}
+Report Link:
+${BUILD_URL}artifact/playwright-report/index.html
 
-                    Check Report in Jenkins Artifacts.
-
-                    Thanks,
-                    Jenkins
-                """,
-                to: "yourmail@gmail.com"
+Regards,
+Jenkins
+""",
+                to: "a.velmuruganofficials@gmail.com"
             )
         }
 
         failure {
-            emailext (
-                subject: "❌ Playwright Test FAILED - Jenkins Build #${BUILD_NUMBER}",
+            emailext(
+                subject: "❌ Playwright FAILED - Build #${BUILD_NUMBER}",
                 body: """
-                    Hello Velmurugan,
+Hello Velmurugan,
 
-                    Your Playwright Automation Test Run FAILED ❌
+Your Playwright Test Run FAILED ❌
 
-                    Job Name: ${JOB_NAME}
-                    Build Number: ${BUILD_NUMBER}
+Console Output:
+${BUILD_URL}console
 
-                    Please check Console Output for error.
+HTML Report:
+${BUILD_URL}artifact/playwright-report/index.html
 
-                    Thanks,
-                    Jenkins
-                """,
-                to: "yourmail@gmail.com"
+Screenshots/Videos:
+${BUILD_URL}artifact/test-results/
+
+Regards,
+Jenkins
+""",
+                to: "a.velmuruganofficials@gmail.com",
+                attachmentsPattern: "test-results/**"
             )
-        }
-
-        always {
-            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
         }
     }
 }

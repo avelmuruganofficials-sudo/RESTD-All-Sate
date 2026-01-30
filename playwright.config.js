@@ -1,7 +1,7 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
-  timeout: 180 * 60 * 10800, // 20 minutes
+  timeout: 20 * 60 * 1000, // 20 minutes
   testDir: './tests',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
@@ -10,10 +10,10 @@ export default defineConfig({
   // :white_check_mark: HTML + Allure reporter
   reporter: [
     ['html', { open: 'never' }],
-    // ['allure-playwright']
+     ['allure-playwright']
   ],
   use: {
-    headless: true,
+    headless: false,
     slowMo: 100,
     viewport: null,
     screenshot: 'only-on-failure',
