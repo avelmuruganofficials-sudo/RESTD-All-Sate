@@ -1,0 +1,47 @@
+:x: FAILED ROW 4 | RiskId: undefined locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('span').filter({ hasText: 'Pick a Limit' }).first()
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:57:78 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 57,
+      column: 78
+    },
+    category: 'pw:api',
+    title: "Click locator('span').filter({ hasText: 'Pick a Limit' }).first()",
+    apiName: 'locator.click',
+    params: {
+      selector: 'span >> internal:has-text="Pick a Limit"i >> nth=0',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@79',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@79',
+      _title: "Click locator('span').filter({ hasText: 'Pick a Limit' }).first()",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1769778275080,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('span').filter({ hasText: 'Pick a Limit' }).first()\x1B[22m\n",
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('span').filter({ hasText: 'Pick a Limit' }).first()\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:57:78',
+      cause: undefined
+    }
+  }
+}

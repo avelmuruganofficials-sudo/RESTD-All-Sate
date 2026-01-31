@@ -1,0 +1,90 @@
+:x: FAILED ROW 4 | RiskId: undefined locator.selectOption: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('#state').nth(1)
+    - locator resolved to <select id="state" name="state" _ngcontent-dtl-c153="" class="form-control form-control-sm ng-untouched ng-pristine ng-valid">…</select>
+  - attempting select option action
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+    - waiting 20ms
+    2 × waiting for element to be visible and enabled
+      - did not find some options
+    - retrying select option action
+      - waiting 100ms
+    18 × waiting for element to be visible and enabled
+       - did not find some options
+     - retrying select option action
+       - waiting 500ms
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:20:43 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 20,
+      column: 43
+    },
+    category: 'pw:api',
+    title: "Select option locator('#state').nth(1)",
+    apiName: 'locator.selectOption',
+    params: {
+      selector: '#state >> nth=1',
+      options: [Array],
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@43',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@43',
+      _title: "Select option locator('#state').nth(1)",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1769778303598,
+    error: {
+      message: 'Error: locator.selectOption: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#state').nth(1)\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <select id="state" name="state" _ngcontent-dtl-c153="" class="form-control form-control-sm ng-untouched ng-pristine ng-valid">…</select>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    18 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m       - did not find some options\x1B[22m\n' +
+        '\x1B[2m     - retrying select option action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n',
+      stack: 'Error: locator.selectOption: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#state').nth(1)\x1B[22m\n" +
+        '\x1B[2m    - locator resolved to <select id="state" name="state" _ngcontent-dtl-c153="" class="form-control form-control-sm ng-untouched ng-pristine ng-valid">…</select>\x1B[22m\n' +
+        '\x1B[2m  - attempting select option action\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m    - waiting 20ms\x1B[22m\n' +
+        '\x1B[2m    2 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m      - did not find some options\x1B[22m\n' +
+        '\x1B[2m    - retrying select option action\x1B[22m\n' +
+        '\x1B[2m      - waiting 100ms\x1B[22m\n' +
+        '\x1B[2m    18 × waiting for element to be visible and enabled\x1B[22m\n' +
+        '\x1B[2m       - did not find some options\x1B[22m\n' +
+        '\x1B[2m     - retrying select option action\x1B[22m\n' +
+        '\x1B[2m       - waiting 500ms\x1B[22m\n' +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:20:43',
+      cause: undefined
+    }
+  }
+}
