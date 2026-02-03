@@ -40,8 +40,8 @@ test('Excel data based automation', async ({ page }) => {
       await page.getByRole('button', { name: 'save & Close' }).click();
       await page.getByText('Application Details').click();
       await page.locator('select[name="typeOfFirmReId"]').selectOption(row.AppDetlTypeOfFirm);
-      await page.getByPlaceholder('Full Time CPA').click();
-      await page.getByPlaceholder('Full Time CPA').fill(row.AppDetlFullTimeProfessionals);
+      await page.getByPlaceholder("Full Time CPA").fill("2");
+      await page.getByPlaceholder("Full Time Non-CPA Professional").fill("3");
       await page.locator('#grossRevenue').click();
       await page.getByRole('textbox').first().press('ArrowLeft');
       await page.getByRole('textbox').first().press('ArrowLeft');
