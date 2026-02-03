@@ -1,0 +1,1697 @@
+ FAILED ROW 1 | RiskId: undefined locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:
+    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')
+    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')
+
+Call log:
+  - waiting for getByPlaceholder('Full Time')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:42:48 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 42,
+      column: 48
+    },
+    category: 'pw:api',
+    title: "Click getByPlaceholder('Full Time')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:attr=[placeholder="Full Time"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@62',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@62',
+      _title: "Click getByPlaceholder('Full Time')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106642452,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:42:48',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 2 | RiskId: undefined locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:
+    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')
+    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')
+
+Call log:
+  - waiting for getByPlaceholder('Full Time')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:42:48 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 42,
+      column: 48
+    },
+    category: 'pw:api',
+    title: "Click getByPlaceholder('Full Time')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:attr=[placeholder="Full Time"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@87',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@87',
+      _title: "Click getByPlaceholder('Full Time')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106658805,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:42:48',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 3 | RiskId: undefined locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:
+    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')
+    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')
+
+Call log:
+  - waiting for getByPlaceholder('Full Time')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:42:48 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 42,
+      column: 48
+    },
+    category: 'pw:api',
+    title: "Click getByPlaceholder('Full Time')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:attr=[placeholder="Full Time"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@112',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@112',
+      _title: "Click getByPlaceholder('Full Time')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106674661,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:42:48',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 4 | RiskId: undefined locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:
+    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')
+    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')
+
+Call log:
+  - waiting for getByPlaceholder('Full Time')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:42:48 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 42,
+      column: 48
+    },
+    category: 'pw:api',
+    title: "Click getByPlaceholder('Full Time')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:attr=[placeholder="Full Time"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@137',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@137',
+      _title: "Click getByPlaceholder('Full Time')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106722771,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:42:48',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 5 | RiskId: undefined locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:
+    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')
+    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')
+
+Call log:
+  - waiting for getByPlaceholder('Full Time')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:42:48 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 42,
+      column: 48
+    },
+    category: 'pw:api',
+    title: "Click getByPlaceholder('Full Time')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:attr=[placeholder="Full Time"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@162',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@162',
+      _title: "Click getByPlaceholder('Full Time')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106740120,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:42:48',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 6 | RiskId: undefined locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:
+    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')
+    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')
+
+Call log:
+  - waiting for getByPlaceholder('Full Time')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:42:48 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 42,
+      column: 48
+    },
+    category: 'pw:api',
+    title: "Click getByPlaceholder('Full Time')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:attr=[placeholder="Full Time"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@187',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@187',
+      _title: "Click getByPlaceholder('Full Time')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106768045,
+    error: {
+      message: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n",
+      stack: "Error: locator.click: Error: strict mode violation: getByPlaceholder('Full Time') resolved to 2 elements:\n" +
+        `    1) <input min="0" id="ftCpa" name="ftCpa" type="number" _ngcontent-non-c315="" placeholder="Full Time CPA" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time CPA')\n` +
+        `    2) <input min="0" id="ftNonCpa" type="number" name="ftNonCpa" _ngcontent-non-c315="" placeholder="Full Time Non-CPA Professional" class="form-control ng-untouched ng-pristine ng-valid"/> aka getByPlaceholder('Full Time Non-CPA Professional')\n` +
+        '\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByPlaceholder('Full Time')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:42:48',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 7 | RiskId: undefined page.waitForTimeout: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:25:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 25,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Wait for timeout',
+    apiName: 'page.waitForTimeout',
+    params: { waitTimeout: 3000 },
+    group: undefined,
+    stepId: 'pw:api@196',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@196',
+      _title: 'Wait for timeout',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773332,
+    error: {
+      message: 'Error: page.waitForTimeout: Target page, context or browser has been closed',
+      stack: 'Error: page.waitForTimeout: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:25:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 8 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@197',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@197',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773338,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 9 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@198',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@198',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773343,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 10 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@199',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@199',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773349,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 11 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@200',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@200',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773362,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 12 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@201',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@201',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773367,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 13 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@202',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@202',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773372,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 14 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@203',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@203',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773377,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 15 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@204',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@204',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773380,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 16 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@205',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@205',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773384,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 17 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@206',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@206',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773388,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 18 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@207',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@207',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773391,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 19 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@208',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@208',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773394,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 20 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@209',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@209',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773397,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 21 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@210',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@210',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773399,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 22 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@211',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@211',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773403,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 23 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@212',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@212',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773407,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 24 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@213',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@213',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773412,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 25 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@214',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@214',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773416,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 26 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@215',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@215',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773419,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 27 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@216',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@216',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773427,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 28 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@217',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@217',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773430,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 29 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@218',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@218',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773433,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 30 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@219',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@219',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773435,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 31 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@220',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@220',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773439,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 32 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@221',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@221',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773442,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 33 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@222',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@222',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773445,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 34 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@223',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@223',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773447,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 35 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@224',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@224',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773450,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 36 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@225',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@225',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773454,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 37 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@226',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@226',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773457,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 38 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@227',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@227',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773459,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 39 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@228',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@228',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773464,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 40 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@229',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@229',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773467,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 41 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@230',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@230',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106773471,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
