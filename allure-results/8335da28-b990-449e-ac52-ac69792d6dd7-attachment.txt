@@ -1,0 +1,1564 @@
+ FAILED ROW 2 | RiskId: undefined locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('#globalSearch')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:111:43 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 111,
+      column: 43
+    },
+    category: 'pw:api',
+    title: "Click locator('#globalSearch')",
+    apiName: 'locator.click',
+    params: { selector: '#globalSearch', strict: true, timeout: 0 },
+    group: undefined,
+    stepId: 'pw:api@218',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@218',
+      _title: "Click locator('#globalSearch')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348006,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#globalSearch')\x1B[22m\n",
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#globalSearch')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:111:43',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 3 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@219',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@219',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348017,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 4 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@220',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@220',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348025,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 5 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@221',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@221',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348030,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 6 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@222',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@222',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348041,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 7 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@223',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@223',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348052,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 8 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@224',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@224',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348063,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 9 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@225',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@225',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348079,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 10 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@226',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@226',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348084,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 11 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@227',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@227',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348088,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 12 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@228',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@228',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348093,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 13 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@229',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@229',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348098,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 14 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@230',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@230',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348104,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 15 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@231',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@231',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348110,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 16 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@232',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@232',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348116,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 17 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@233',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@233',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348121,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 18 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@234',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@234',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348126,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 19 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@235',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@235',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348131,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 20 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@236',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@236',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348135,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 21 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@237',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@237',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348144,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 22 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@238',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@238',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348149,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 23 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@239',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@239',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348155,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 24 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@240',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@240',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348160,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 25 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@241',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@241',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348166,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 26 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@242',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@242',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348172,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 27 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@243',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@243',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348178,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 28 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@244',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@244',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348184,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 29 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@245',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@245',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348189,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 30 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@246',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@246',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348195,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 31 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@247',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@247',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348201,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 32 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@248',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@248',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348206,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 33 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@249',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@249',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348215,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 34 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@250',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@250',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348221,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 35 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@251',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@251',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348226,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 36 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@252',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@252',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348231,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 37 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@253',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@253',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348236,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 38 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@254',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@254',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348241,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 39 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@255',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@255',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348248,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 40 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@256',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@256',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348253,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
+ FAILED ROW 41 | RiskId: undefined page.goto: Target page, context or browser has been closed
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:17:18 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 17,
+      column: 18
+    },
+    category: 'pw:api',
+    title: 'Navigate to "/"',
+    apiName: 'page.goto',
+    params: {
+      url: 'https://www.landydev.com/#/pages/riskPolicySearch',
+      waitUntil: 'load',
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@257',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@257',
+      _title: 'Navigate to "/"',
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770112348259,
+    error: {
+      message: 'Error: page.goto: Target page, context or browser has been closed',
+      stack: 'Error: page.goto: Target page, context or browser has been closed\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:17:18',
+      cause: undefined
+    }
+  }
+}
