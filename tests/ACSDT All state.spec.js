@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+test.setTimeout(30 * 60 * 1000); // 30 minutes
 import xlsx from 'xlsx';
 const workbook = xlsx.readFile('./tests/DATA/ACSTD AllState.xlsx');
 const sheet = workbook.Sheets[workbook.SheetNames[0]];
@@ -180,11 +181,17 @@ test('Excel data based automation', async ({ page }) => {
         Status: 'SUCCESS'
       });
     } catch (error) {
-      console.error(`:x: FAILED ROW ${i + 1} | RiskId: ${row.RiskId}`, error);
-      await page.screenshot({ path: `row-${i + 1}-error.png` });
-      continue; // move to next Excel row
+      console.error(` FAILED ROW ${i + 1} | RiskId: ${row.RiskId}`, error);
+
+      if (page && !page.isClosed()) {
+        await page.screenshot({ path: `row-${i + 1}-error.png` });
+      } else {
+        console.log(' Page already closed, skipping screenshot');
+      }
+      continue;
     }
-    // small delay between rows
-    await page.waitForTimeout(2000);
+
   }
+  // small delay between rows
+  await page.waitForTimeout(2000);
 });

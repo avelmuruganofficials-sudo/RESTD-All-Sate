@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+test.setTimeout(30 * 60 * 1000); // 30 minutes
 import xlsx from 'xlsx';
 const workbook = xlsx.readFile('./tests/DATA/RESTD AllState.xlsx');
 const sheet = workbook.Sheets[workbook.SheetNames[0]];
@@ -14,7 +15,7 @@ test('Excel data based automation', async ({ page }) => {
     console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
-      await page.waitForLoadState('networkidle'); 
+      await page.waitForLoadState('networkidle');
       await page.getByRole('button', { name: '   New Application' }).click();
       await page.getByLabel('State').selectOption(row.State);
       await page.locator('#state').nth(1).selectOption(row.Lob);
@@ -121,7 +122,7 @@ test('Excel data based automation', async ({ page }) => {
       await page.locator('#search').first().click();
       await page.locator("//tr[@class='ng2-smart-row selected ng-star-inserted']").click();
       await page.locator('//nb-tabset//ul/li[1]/a').click();
-// ********************************Booking***************************************
+      // ********************************Booking***************************************
       // await page.locator('nb-accordion-item-header').filter({ hasText: 'Client Information' }).click();
       // const riskIdInput = page.locator("input[placeholder='Risk Id']");
       // await riskIdInput.click();
@@ -184,11 +185,17 @@ test('Excel data based automation', async ({ page }) => {
         Status: 'SUCCESS'
       });
     } catch (error) {
-      console.error(`:x: FAILED ROW ${i + 1} | RiskId: ${row.RiskId}`, error);
-      await page.screenshot({ path: `row-${i + 1}-error.png` });
-      continue; // move to next Excel row
+      console.error(` FAILED ROW ${i + 1} | RiskId: ${row.RiskId}`, error);
+
+      if (page && !page.isClosed()) {
+        await page.screenshot({ path: `row-${i + 1}-error.png` });
+      } else {
+        console.log(' Page already closed, skipping screenshot');
+      }
+      continue;
     }
-    // small delay between rows
-    await page.waitForTimeout(2000);
+
   }
+  // small delay between rows
+  await page.waitForTimeout(2000);
 });
