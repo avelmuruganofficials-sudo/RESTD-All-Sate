@@ -1,0 +1,51 @@
+✅ ACSTD Total Rows: 41
+✅ Login Successful
+
+🚀 ACSTD Row 1 Started | RiskId: undefined
+❌ ACSTD Row 1 FAILED locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByText('Application Details')
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\ACSDT All state.spec.js:89:51 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\ACSDT All state.spec.js',
+      line: 89,
+      column: 51
+    },
+    category: 'pw:api',
+    title: "Click getByText('Application Details')",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:text="Application Details"i',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@57',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@57',
+      _title: "Click getByText('Application Details')",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106379097,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Application Details')\x1B[22m\n",
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByText('Application Details')\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\ACSDT All state.spec.js:89:51',
+      cause: undefined
+    }
+  }
+}

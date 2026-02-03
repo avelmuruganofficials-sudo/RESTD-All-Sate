@@ -1,0 +1,51 @@
+✅ RESTD Total Rows: 41
+✅ Login Successful
+
+🚀 RESTD Row 1 Started | RiskId: undefined
+❌ RESTD Row 1 FAILED locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for getByRole('button', { name: 'Rate' })
+
+    at C:\Users\avelm\Desktop\RESTD Jenkins\tests\RESTD All State.spec.js:54:56 {
+  Symbol(step): {
+    location: {
+      file: 'C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js',
+      line: 54,
+      column: 56
+    },
+    category: 'pw:api',
+    title: "Click getByRole('button', { name: 'Rate' })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'internal:role=button[name="Rate"i]',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@46',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@46',
+      _title: "Click getByRole('button', { name: 'Rate' })",
+      _parentStep: undefined,
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1770106381979,
+    error: {
+      message: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('button', { name: 'Rate' })\x1B[22m\n",
+      stack: 'Error: locator.click: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for getByRole('button', { name: 'Rate' })\x1B[22m\n" +
+        '\n' +
+        '    at C:\\Users\\avelm\\Desktop\\RESTD Jenkins\\tests\\RESTD All State.spec.js:54:56',
+      cause: undefined
+    }
+  }
+}

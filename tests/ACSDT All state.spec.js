@@ -195,6 +195,3 @@ test('Excel data based automation', async ({ page }) => {
   // small delay between rows
   await page.waitForTimeout(2000);
 });
-
-
-
