@@ -10,7 +10,7 @@ test('Excel data based automation', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i =38 ; i < data.length; i++) {
+  for (let i = 38; i < data.length; i++) {
     const row = data[i];
     console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
     try {
@@ -65,10 +65,25 @@ test('Excel data based automation', async ({ page }) => {
       await page.getByText(row.QutSelContDeductibleType, { exact: true }).click();
       await page.getByRole('button', { name: 'save & Close' }).click();
       await page.waitForTimeout(2000);
-      await page.getByRole('button', { name: ' Rate' }).click();
-      await page.waitForLoadState('networkidle');
-      await page.getByRole('button', { name: '   Re-Generate Sheets' }).click();
-      await page.waitForTimeout(3000);
+      // Click Rate
+      await page.getByRole('button', { name: /Rate/ }).click();
+
+      // Wait for sheet page load
+      await page.waitForLoadState("domcontentloaded");
+
+      // Wait for Re-Generate button properly
+      const regenBtn = page.locator("button:has-text('Re-Generate Sheets')");
+
+      await expect(regenBtn).toBeVisible({ timeout: 60000 });
+      await expect(regenBtn).toBeEnabled({ timeout: 60000 });
+
+      // Click safely
+      await regenBtn.click();
+      console.log(" Re-Generate Sheets clicked successfully");
+
+      // Wait for processing
+      await page.waitForTimeout(5000);
+
       await page.locator('//tbody/tr[2]/td[2]/button[3]').click();
       await page.waitForTimeout(2000);
       const today = new Date().toISOString().split('T')[0];
