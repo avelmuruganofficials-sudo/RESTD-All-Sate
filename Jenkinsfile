@@ -18,7 +18,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/avelmuruganofficials-sudo/ACSTD-Test.git'
+                    url: 'https://github.com/avelmuruganofficials-sudo/RESTD-All-Sate.git'
             }
         }
 
@@ -36,7 +36,8 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-                bat 'npx playwright test --headed --reporter=html'
+               bat 'npx playwright test --workers=2 --headed --reporter=html'
+
             }
         }
     }
