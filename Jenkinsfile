@@ -35,10 +35,10 @@ pipeline {
         }
 
         stage('Run Playwright Tests') {
-            steps {
-                bat 'npx playwright test --headed --reporter=html'
-            }
-        }
+    steps {
+        bat "npx playwright test --headed --workers=1"
+    }
+}
     }
 
     post {
