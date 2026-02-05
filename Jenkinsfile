@@ -36,8 +36,11 @@ pipeline {
 
         stage('Run Playwright Tests') {
             steps {
-               bat 'npx playwright test --workers=2 --headed --reporter=html'
-
+               bat '''
+      npx playwright test --headed --workers=1 --reporter=html,junit
+      echo ==== LIST FILES ====
+      dir
+    '''
             }
         }
     }
