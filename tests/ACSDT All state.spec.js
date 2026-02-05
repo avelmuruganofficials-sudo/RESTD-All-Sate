@@ -11,8 +11,13 @@ test('Excel data based automation', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
   for (let i = 0; i < data.length; i++) {
+     const rowNumber = i + 1;
     const row = data[i];
+    const RiskId = row.Option;
     console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
+      if (!RiskId) {
+      throw new Error(`❌ RiskId missing in Excel at row ${rowNumber}`);
+    }
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
       await page.waitForLoadState('networkidle');
