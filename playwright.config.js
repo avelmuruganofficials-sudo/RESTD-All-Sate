@@ -9,8 +9,8 @@ export default defineConfig({
   workers: process.env.CI ? 2 : undefined,
   // :white_check_mark: HTML + Allure reporter
   reporter: [
-      ['html'],
-    ['junit', { outputFile: 'junit-results.xml' }]
+    ['html'],
+    ['junit', { outputFile: 'playwright-report/results.xml' }]
   ],
   use: {
     headless: false,

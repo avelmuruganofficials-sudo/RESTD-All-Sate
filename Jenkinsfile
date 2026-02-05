@@ -34,21 +34,26 @@ pipeline {
             }
         }
 
-        stage('Run Playwright Tests') {
+        stage('Run Playwright Tests (Headed)') {
             steps {
-               bat '''
-      npx playwright test --headed --workers=1 --reporter=html,junit
-      echo ==== LIST FILES ====
-      dir
+               bat '''  
+      npx playwright test --headed --workers=1
     '''
             }
         }
+         stage('Archive Reports') {
+  steps {
+    archiveArtifacts artifacts: 'playwright-report/**', fingerprint: true
+    junit 'playwright-report/results.xml'
+  }
+    }
     }
 
     post {
 
         always {
-            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+           echo "Pipeline finished. Check artifacts and test reports."
+             archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
             archiveArtifacts artifacts: 'test-results/**', allowEmptyArchive: true
         }
 
