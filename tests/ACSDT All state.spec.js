@@ -55,8 +55,11 @@ test('Excel data based automation', async ({ page }) => {
       await page.getByRole('button', { name: 'save & Close' }).click();
       await page.waitForTimeout(3000);
       await page.getByText('Areas of Practice').click();
+      await page.waitForTimeout(3000);
       await page.locator("//td[contains(text(),'Audit Non-Public')]//following::input[1]").click();
+      await page.waitForTimeout(3000);
       await page.locator("//td[contains(text(),'Audit Non-Public')]//following::input[1]").type(row.Audit_Non_Public);
+      await page.waitForTimeout(3000);
       await page.getByRole('button', { name: 'save & Close' }).click();
       await page.waitForTimeout(3000);
       await page.locator('nb-accordion-item-header').filter({ hasText: 'Quote Selection &' }).click();
