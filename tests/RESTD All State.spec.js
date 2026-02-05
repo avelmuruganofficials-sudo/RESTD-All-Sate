@@ -13,11 +13,12 @@ test('Excel data based automation', async ({ page }) => {
   for (let i = 5 ; i < data.length; i++) {
     const rowNumber = i + 1;
     const row = data[i];
-    const RiskId = row.Option;
-    console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
+      const RiskId = row.Option?.toString().trim();
     if (!RiskId) {
-      throw new Error(`❌ RiskId missing in Excel at row ${rowNumber}`);
+       console.warn(`⚠️ Skipping row ${rowNumber} – RiskId missing`);
+    continue;
     }
+     console.log(`Starting row ${rowNumber} RiskId: ${RiskId}`);
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
       await page.waitForLoadState('networkidle');

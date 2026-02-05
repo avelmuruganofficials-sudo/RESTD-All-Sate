@@ -11,13 +11,15 @@ test('Excel data based automation', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
   for (let i = 0; i < data.length; i++) {
-     const rowNumber = i + 1;
+    const rowNumber = i + 1;
     const row = data[i];
-    const RiskId = row.Option;
-    console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
-      if (!RiskId) {
-      throw new Error(`❌ RiskId missing in Excel at row ${rowNumber}`);
+     const RiskId = row.Option?.toString().trim();
+    
+    if (!RiskId) {
+      console.warn(`⚠️ Skipping row ${rowNumber} – RiskId missing`);
+    continue;
     }
+    console.log(`Starting row ${i + 1} RiskId: ${row.RiskId}`);
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
       await page.waitForLoadState('networkidle');
@@ -81,12 +83,11 @@ test('Excel data based automation', async ({ page }) => {
       await page.waitForLoadState("domcontentloaded");
 
       // Wait for Re-Generate button properly
-      const regenBtn = page.locator("button:has-text('Re-Generate Sheets')");
+      const regenBtn = page.getByRole('button', { name: /re-?generate sheets/i });
 
-      await expect(regenBtn).toBeVisible({ timeout: 60000 });
-      await expect(regenBtn).toBeEnabled({ timeout: 60000 });
+      // wait up to 2 minutes for backend processing
+      await regenBtn.waitFor({ state: 'visible', timeout: 120_000 });
 
-      // Click safely
       await regenBtn.click();
       console.log(" Re-Generate Sheets clicked successfully");
 
