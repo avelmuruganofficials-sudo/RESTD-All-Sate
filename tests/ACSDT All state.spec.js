@@ -52,6 +52,7 @@ test('Excel data based automation', async ({ page }) => {
       await page.getByRole('textbox').first().press('ArrowLeft');
       await page.getByRole('textbox').first().press('ArrowLeft');
       await page.locator('#grossRevenue').type(row.TotalGrossRevenues);
+      await page.waitForTimeout(6000);
       await page.getByRole('button', { name: 'save & Close' }).click();
       await page.waitForTimeout(6000);
       await page.getByText('Areas of Practice').click();
