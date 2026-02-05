@@ -10,7 +10,7 @@ test('Excel data based automation', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123'); 
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i = 5 ; i < data.length; i++) {
+  for (let i = 11 ; i < data.length; i++) {
     const rowNumber = i + 1;
     const row = data[i];
       const RiskId = row.Option?.toString().trim();
