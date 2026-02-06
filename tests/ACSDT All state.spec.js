@@ -201,7 +201,7 @@ test('Excel data based automation', async ({ page }) => {
       await page.screenshot({ path: `row-${i + 1}-success.png` });
       console.log({
         row: i + 1,
-        RiskId: row.riskId,
+        RiskId: riskId,
         Status: 'SUCCESS'
       });
     } catch (error) {

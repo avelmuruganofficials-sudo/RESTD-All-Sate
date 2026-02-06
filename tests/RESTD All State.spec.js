@@ -187,11 +187,11 @@ test('Excel data based automation', async ({ page }) => {
       await page.screenshot({ path: `row-${i + 1}-success.png` });
       console.log({
         row: i + 1,
-        RiskId: row.riskId,
+        RiskId: riskId,
         Status: 'SUCCESS'
       });
     } catch (error) {
-      console.error(` FAILED ROW ${i + 1} | RiskId: ${row.riskId}`, error);
+      console.error(` FAILED ROW ${i + 1} | RiskId: ${riskId}`, error);
 
       if (page && !page.isClosed()) {
         await page.screenshot({ path: `row-${i + 1}-error.png` });
