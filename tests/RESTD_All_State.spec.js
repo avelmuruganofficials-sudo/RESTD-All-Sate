@@ -14,7 +14,7 @@ test('Excel data based automation', async ({ page }) => {
   for (let i = 3; i < data.length; i++) {
     const rowNumber = i + 1;
     const row = data[i];
-    const riskId = Option;
+    const riskId = row.Option?.toString().trim();
     if (!riskId) {
       console.warn(`Skipping row ${i + 1} - RiskId missing`);
       continue;
