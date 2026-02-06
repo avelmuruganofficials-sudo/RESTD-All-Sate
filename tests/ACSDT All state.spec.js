@@ -13,12 +13,11 @@ test('Excel data based automation', async ({ page }) => {
   for (let i = 0; i < data.length; i++) {
     const rowNumber = i + 1;
     const row = data[i];
-     const RiskId = row.Option;
-    
-   if (!riskId) {
-  console.warn(`Skipping row ${i + 1} - RiskId missing`);
-  return;
-}
+    const riskId = row.Option;
+    if (!riskId) {
+      console.warn(`Skipping row ${i + 1} - RiskId missing`);
+      continue;
+    }
     console.log(`Starting row ${i + 1} RiskId: ${riskId}`);
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
@@ -202,7 +201,7 @@ test('Excel data based automation', async ({ page }) => {
       await page.screenshot({ path: `row-${i + 1}-success.png` });
       console.log({
         row: i + 1,
-        RiskId: row.RiskId,
+        RiskId: row.riskId,
         Status: 'SUCCESS'
       });
     } catch (error) {

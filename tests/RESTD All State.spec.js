@@ -10,13 +10,13 @@ test('Excel data based automation', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
   await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i = 1; i < data.length; i++) {
+  for (let i = 0; i < data.length; i++) {
     const rowNumber = i + 1;
     const row = data[i];
-    const RiskId = row.Option;
-    if (!RiskId) {
+    const riskId = row.Option;
+    if (!riskId) {
       console.warn(`Skipping row ${i + 1} - RiskId missing`);
-      return;
+      continue;
     }
     console.log(`Starting row ${i + 1} RiskId: ${riskId}`);
     try {
@@ -187,11 +187,11 @@ test('Excel data based automation', async ({ page }) => {
       await page.screenshot({ path: `row-${i + 1}-success.png` });
       console.log({
         row: i + 1,
-        RiskId: row.RiskId,
+        RiskId: row.riskId,
         Status: 'SUCCESS'
       });
     } catch (error) {
-      console.error(` FAILED ROW ${i + 1} | RiskId: ${row.RiskId}`, error);
+      console.error(` FAILED ROW ${i + 1} | RiskId: ${row.riskId}`, error);
 
       if (page && !page.isClosed()) {
         await page.screenshot({ path: `row-${i + 1}-error.png` });
