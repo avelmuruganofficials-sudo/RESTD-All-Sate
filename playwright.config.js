@@ -13,7 +13,7 @@ export default defineConfig({
     ['junit', { outputFile: 'playwright-report/results.xml' }]
   ],
   use: {
-    headless: false,
+    headless: true,
     slowMo: 100,
     viewport: null,
     screenshot: 'only-on-failure',

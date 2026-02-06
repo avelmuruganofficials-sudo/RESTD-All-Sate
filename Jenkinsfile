@@ -36,13 +36,13 @@ pipeline {
 
                 stage('ACSDT Spec') {
                     steps {
-                        bat 'npx playwright test "tests/ACSDT All state.spec.js"'
+                        bat 'npx playwright test "tests/ACSDT_All_state.spec.js"'
                     }
                 }
 
                 stage('RESTD Spec') {
                     steps {
-                        bat 'npx playwright test "tests/RESTD All State.spec.js"'
+                        bat 'npx playwright test "tests/RESTD_All_State.spec.js"'
                     }
                 }
 
