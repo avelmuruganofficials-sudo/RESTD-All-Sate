@@ -8,17 +8,17 @@ test('Excel data based automation', async ({ page }) => {
   await page.goto('https://www.landydev.com/#/auth/login');
   await page.waitForLoadState('networkidle');
   await page.getByRole('textbox', { name: 'Email' }).fill('velmurugan@stepladdersolutions.com');
-  await page.getByRole('textbox', { name: 'Password' }).fill('Test@123'); 
+  await page.getByRole('textbox', { name: 'Password' }).fill('Test@123');
   await page.getByRole('button', { name: 'Login' }).click();
-  for (let i = 1 ; i < data.length; i++) {
+  for (let i = 1; i < data.length; i++) {
     const rowNumber = i + 1;
     const row = data[i];
-      const RiskId = row.Option?.toString().trim();
+    const RiskId = row.Option;
     if (!RiskId) {
-       console.warn(`⚠️ Skipping row ${rowNumber} – RiskId missing`);
-    continue;
+      console.warn(`Skipping row ${i + 1} - RiskId missing`);
+      return;
     }
-     console.log(`Starting row ${rowNumber} RiskId: ${RiskId}`);
+    console.log(`Starting row ${i + 1} RiskId: ${riskId}`);
     try {
       await page.goto('https://www.landydev.com/#/pages/riskPolicySearch');
       await page.waitForLoadState('networkidle');
