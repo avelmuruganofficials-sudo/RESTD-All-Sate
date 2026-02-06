@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+test.describe.configure({ mode: 'serial' });
 test.setTimeout(30 * 60 * 1000); // 30 minutes
 import xlsx from 'xlsx';
 const workbook = xlsx.readFile('./tests/DATA/RESTD AllState.xlsx');
@@ -13,7 +14,7 @@ test('Excel data based automation', async ({ page }) => {
   for (let i = 3; i < data.length; i++) {
     const rowNumber = i + 1;
     const row = data[i];
-    const riskId = row.Option;
+    const riskId = Option;
     if (!riskId) {
       console.warn(`Skipping row ${i + 1} - RiskId missing`);
       continue;

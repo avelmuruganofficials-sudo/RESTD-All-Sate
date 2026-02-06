@@ -32,12 +32,28 @@ pipeline {
             steps {
                 bat 'npx playwright install'
             }
+        }  stage('Run Specs in Parallel') {
+            parallel {
+
+                stage('ACSDT Spec') {
+                    steps {
+                        bat 'npx playwright test "tests/ACSDT All state.spec.js"'
+                    }
+                }
+
+                stage('RESTD Spec') {
+                    steps {
+                        bat 'npx playwright test "tests/RESTD All State.spec.js"'
+                    }
+                }
+
+            }
         }
 
         stage('Run Playwright Tests (Headed)') {
             steps {
                bat '''  
-      npx playwright test --headed --workers=1
+      npx playwright test --headed --workers=2
     '''
             }
         }
