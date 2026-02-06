@@ -37,7 +37,7 @@ pipeline {
         stage('Run Playwright Tests (Headed)') {
             steps {
                bat '''  
-      npx playwright test --headed --workers=2
+      npx playwright test --headed --workers=1
     '''
             }
         }

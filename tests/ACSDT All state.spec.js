@@ -78,20 +78,20 @@ test('Excel data based automation', async ({ page }) => {
       // Click Rate
       await page.getByRole('button', { name: /Rate/ }).click();
 
-      // Wait for sheet page load
-      await page.waitForLoadState("domcontentloaded");
+      // After clicking Rate
+      await page.waitForLoadState('networkidle');
 
-      // Wait for Re-Generate button properly
       const regenBtn = page.getByRole('button', { name: /re-?generate sheets/i });
 
-      // wait up to 2 minutes for backend processing
-      await regenBtn.waitFor({ state: 'visible', timeout: 120_000 });
+      if (await regenBtn.isVisible({ timeout: 120_000 })) {
+        await regenBtn.click();
+        console.log('Re-Generate Sheets clicked');
+      } else {
+        throw new Error('Re-Generate Sheets button not visible');
+      }
 
-      await regenBtn.click();
-      console.log(" Re-Generate Sheets clicked successfully");
-
-      // Wait for processing
       await page.waitForTimeout(5000);
+
 
       await page.locator('//tbody/tr[2]/td[2]/button[3]').click();
       await page.waitForTimeout(2000);

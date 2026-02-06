@@ -71,8 +71,24 @@ test('Excel data based automation', async ({ page }) => {
       await page.getByText(row.QutSelContDeductibleType).click();
       await page.getByRole('button', { name: 'save & Close' }).click();
       await page.waitForTimeout(2000);
-      await page.getByRole('button', { name: ' Rate' }).click();
+
+      // Click Rate
+      await page.getByRole('button', { name: /Rate/ }).click();
+
+      // After clicking Rate
       await page.waitForLoadState('networkidle');
+
+      const regenBtn = page.getByRole('button', { name: /re-?generate sheets/i });
+
+      if (await regenBtn.isVisible({ timeout: 120_000 })) {
+        await regenBtn.click();
+        console.log('Re-Generate Sheets clicked');
+      } else {
+        throw new Error('Re-Generate Sheets button not visible');
+      }
+
+      await page.waitForTimeout(5000);
+
       await page.locator('//tbody/tr[1]/td[2]/button[3]').click();
       const today = new Date().toISOString().split('T')[0];
       await page.locator('div input#minDate').fill(today);
